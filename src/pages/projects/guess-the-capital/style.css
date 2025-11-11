@@ -1,0 +1,55 @@
+.game-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+.question-box {
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+}
+
+#main-h {
+    font-weight: 600;
+    font-family: system-ui, -apple-system, sans-serif;
+}
+
+.btn-outline-dark:hover .dot{
+    border-color: white;
+}
+
+.ans-box {
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 2rem;
+}
+
+.correct-ans {
+    background-color: #28a745 !important;
+    border-color: #28a745 !important;
+    color: white !important;
+}
+
+.wrong-ans {
+    background-color: #dc3545 !important;
+    border-color: #dc3545 !important;
+    color: white !important;
+}
+
+.question {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 768px) {
+    .question-box {
+        margin-bottom: 2rem;
+    }
+}
