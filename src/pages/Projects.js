@@ -32,6 +32,19 @@ function Projects() {
           </a>
         </div>
 
+        <div className="project-card bg-white p-6 rounded-lg shadow-lg border-2 border-gray-200 hover:border-purple-500 transition-all duration-300 transform hover:-translate-y-1">
+          <h3 className="text-2xl font-semibold mb-3 text-gray-800">Toronto Handyman Pro</h3>
+          <p className="text-gray-600 mb-6 text-lg">A professional handyman services website for Toronto area, showcasing services and contact information.</p>
+          <a 
+            href="https://torontohandymanpro.ca" 
+            className="btn btn-primary inline-block px-6 py-3 bg-purple-600 text-white rounded-lg hover:bg-purple-700 transition-colors duration-300 text-center w-full md:w-auto"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Visit Website
+          </a>
+        </div>
+
         {/* Add other project cards here */}
         
       </div>

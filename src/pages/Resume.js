@@ -127,6 +127,19 @@ function Resume() {
                 GitHub
               </a>
             </div>
+
+            <div className="project-card p-4 border rounded-lg hover:shadow-md transition-shadow">
+              <h3 className="text-lg font-semibold text-gray-800 mb-2">Toronto Handyman Pro</h3>
+              <p className="text-gray-600 mb-3">A professional handyman services website for Toronto area, showcasing services and contact information.</p>
+              <a 
+                href="https://torontohandymanpro.ca" 
+                className="text-blue-600 hover:text-blue-800 hover:underline"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Visit Website
+              </a>
+            </div>
           </div>
         </section>
 
